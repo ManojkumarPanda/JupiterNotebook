@@ -1,0 +1,16 @@
+# Setup required Modules FOr My binder
+name: mybinder-env
+# Install Nvidias Conda
+channels:
+  - conda-forge
+  - defaults
+# Install all py dependencies
+dependencies:
+  - python=3.11  # 3.11 version of py
+  - jupyter      # The jupytor note book
+  - numpy        # A module to create Matrix or array fastly and also do calculation efficiently
+  - pandas       # A module to manage data inside a csv or excel sheet (Or any other tabular forms)
+  - Tensorflow   # A famouse machine learning Frame work provides most of the api to ease our work
+  - seaborn      # A method to visualise a matrix 
+  - matplotlib   # A Method to represent sets of data as graph
+  - scikit-learn # A Machine learning Frame work comes with prebuild Models
